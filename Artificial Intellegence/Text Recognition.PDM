@@ -1,0 +1,215 @@
+[Root]
+Most Recent Package=Text Recognition Software
+Most Recent Deploy=Text Recognition Software
+
+
+[Package|Text Recognition|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\setup
+
+[Package|Text Recognition|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Text Recognition|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Text Recognition|Files Found]
+
+[Package|Text Recognition|Files Released]
+
+[Package|Text Recognition|Missing Dependency Information]
+
+[Package|Text Recognition|Out-of-Date Dependency Information]
+
+[Package|Text Recognition|Files Added]
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\DATA.rec=
+
+[Package|Text Recognition|Files Removed]
+
+[Package|Text Recognition|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\Text Recognition.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\DATA.rec=Yes
+
+[Package|Text Recognition|Configure Registry Files]
+Applicable=No
+
+[Package|Text Recognition|Configure Remote Servers]
+Applicable=No
+
+[Package|Text Recognition|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\Text Recognition.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\DATA.rec=$(AppPath)
+
+[Package|Text Recognition|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\Text Recognition.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\DATA.rec=Yes
+
+[Package|Text Recognition|Distribution]
+Type=single
+Size=
+Title=Text Recognition Software
+
+[Package|Text Recognition|IconGroups]
+Group0=Text Recognition Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Text Recognition|Text Recognition Software]
+Icon1="Text Recognition.exe"
+Title1=Text Recognition Software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Text Recognition|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\setup
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\setup\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\setup\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\Projects\Text Recognition v2.01 beta\setup\Text Recognition.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Text Recognition|Root]
+Package=Text Recognition
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\temp
+
+
+[Package|Text Recognition Software|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\My Programs\Setup Files\Text Recognition Software\Package
+
+[Package|Text Recognition Software|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Text Recognition Software|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Text Recognition Software|Files Found]
+DATA.rec=G:\My Programs\VB\Text Recognition v2.01 beta\DATA.rec
+
+[Package|Text Recognition Software|Files Released]
+
+[Package|Text Recognition Software|Missing Dependency Information]
+
+[Package|Text Recognition Software|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Text Recognition Software|Files Added]
+data.rec=
+
+[Package|Text Recognition Software|Files Removed]
+
+[Package|Text Recognition Software|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\My Programs\VB\Text Recognition v2.01 beta\Text Recognition.exe=Yes
+G:\My Programs\VB\Text Recognition v2.01 beta\DATA.rec=Yes
+
+[Package|Text Recognition Software|Configure Registry Files]
+Applicable=No
+
+[Package|Text Recognition Software|Configure Remote Servers]
+Applicable=No
+
+[Package|Text Recognition Software|Install Locations]
+C:\My Documents\Visual Studio Projects\VB\Text Recognition v2.01 beta\Text Recognition.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Visual Studio Projects\VB\Text Recognition v2.01 beta\DATA.rec=$(AppPath)
+G:\My Programs\VB\Text Recognition v2.01 beta\Text Recognition.exe=$(AppPath)
+G:\My Programs\VB\Text Recognition v2.01 beta\DATA.rec=$(AppPath)
+
+[Package|Text Recognition Software|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Visual Studio Projects\VB\Text Recognition v2.01 beta\Text Recognition.exe=No
+C:\My Documents\Visual Studio Projects\VB\Text Recognition v2.01 beta\DATA.rec=No
+G:\My Programs\VB\Text Recognition v2.01 beta\Text Recognition.exe=No
+G:\My Programs\VB\Text Recognition v2.01 beta\DATA.rec=No
+
+[Package|Text Recognition Software|Distribution]
+Type=single
+Size=
+Title=Text Recognition Software
+
+[Package|Text Recognition Software|IconGroups]
+Group0=Text Recognition Software
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Text Recognition Software|Text Recognition Software]
+Icon1="Text Recognition.exe"
+Title1=Text Recognition Software ( By aLbert )
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Text Recognition Software|Package]
+PackageFolder=g:\My Programs\Setup Files\Text Recognition Software\Package
+ProjectFolder=G:\My Programs\VB\Text Recognition v2.01 beta
+ServerSideCab=
+File1=g:\My Programs\Setup Files\Text Recognition Software\Package\setup.exe
+File2=g:\My Programs\Setup Files\Text Recognition Software\Package\Setup.Lst
+File3=g:\My Programs\Setup Files\Text Recognition Software\Package\Text Recognition.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Text Recognition Software|Root]
+Package=Text Recognition Software
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\My Programs\Setup Files\Text Recognition Software\Deployed
